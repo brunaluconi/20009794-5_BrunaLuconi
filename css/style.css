@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 70px;
+  margin: 0 auto;
+  text-shadow: white 1px 1px;
+}
+
+.header_nome {
+  width: 100%;
+  background-color: lightcoral;
+}
+
+.header_nome .header_nome_content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header_nome .header_nome_content .header_nome_content_menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_nome_content_menu ul {
+  display: flex;
+  align-items: stretch;
+}
+
+.header_nome_content_menu ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header_nome_content_menu ul li a {
+  padding: 0 26px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: rgb(26, 25, 25);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header_nome_content_menu ul li a:hover {
+  background-color: bisque;
+}
+
+.main_content .main_content_art h1 {
+  text-align: center;
+  font-family: "Rampart One", cursive;
+  padding: 100px 45px;
+  font-size: 50px;
+  color: rgb(22, 22, 22);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightcoral;
+  color: rgb(46, 45, 45);
+  text-align: center;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
